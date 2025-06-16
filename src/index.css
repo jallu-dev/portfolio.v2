@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Font Families */
+.roboto-mono-light {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 200;
+}
+
+.roboto-mono-bold {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 600;
+}
+
+/* Scrollbar Styling (Cross-Browser) */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #a1a1aa;
+  border-radius: 15px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(to right top, #f87171, #fb923c, #fb7185);
+  border-radius: 15px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-image: linear-gradient(to right top, #f87171, #fb923c, #fb7185);
+}
+
+::-moz-scrollbar {
+  width: 5px;
+}
+
+::-moz-scrollbar-track {
+  background: #a1a1aa;
+  border-radius: 15px;
+}
+
+::-moz-scrollbar-thumb {
+  background-image: linear-gradient(to right top, #f87171, #fb923c, #fb7185);
+  border-radius: 15px;
+}
+
+::-moz-scrollbar-thumb:hover {
+  background-image: linear-gradient(to right top, #f87171, #fb923c, #fb7185);
+}
+
+::-ms-scrollbar {
+  width: 5px;
+}
+
+::-ms-scrollbar-track {
+  background: #a1a1aa;
+  border-radius: 15px;
+}
+
+::-ms-scrollbar-thumb {
+  background-image: linear-gradient(to right top, #f87171, #fb923c, #fb7185);
+  border-radius: 15px;
+}
+
+::-ms-scrollbar-thumb:hover {
+  background-image: linear-gradient(to right top, #f87171, #fb923c, #fb7185);
+}
