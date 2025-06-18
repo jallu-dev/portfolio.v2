@@ -26,7 +26,7 @@ const Header = () => {
       </div>
       <div className=" bg-gradient-to-tr from-red-400 via-orange-400 to-rose-400 p-1 shadow-lg rounded-xl">
         <a
-          href="https://drive.google.com/file/d/1p3YUhAmXrT0QFYZCUeE03fdK4Qv6B3YT/view?usp=drive_link"
+          href="https://drive.google.com/file/d/1shsCIcC9KLAvaT9iOIgZNy2PebpS7lPY/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
           className="text-zinc-500 hover:text-zinc-300 px-2 py-1 text-md flex items-center
